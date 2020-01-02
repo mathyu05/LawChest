@@ -1,0 +1,367 @@
+{
+  "Days": [
+    {"value": "01","label": "1" },
+    {"value": "02","label": "2" },
+    {"value": "03","label": "3" },
+    {"value": "04","label": "4" },
+    {"value": "05","label": "5" },
+    {"value": "06","label": "6" },
+    {"value": "07","label": "7" },
+    {"value": "08","label": "8" },
+    {"value": "09","label": "9" },
+    {"value": "10","label": "10" },
+    {"value": "11","label": "11" },
+    {"value": "12","label": "12" },
+    {"value": "13","label": "13" },
+    {"value": "14","label": "14" },
+    {"value": "15","label": "15" },
+    {"value": "16","label": "16" },
+    {"value": "17","label": "17" },
+    {"value": "18","label": "18" },
+    {"value": "19","label": "19" },
+    {"value": "20","label": "20" },
+    {"value": "21","label": "21" },
+    {"value": "22","label": "22" },
+    {"value": "23","label": "23" },
+    {"value": "24","label": "24" },
+    {"value": "25","label": "25" },
+    {"value": "26","label": "26" },
+    {"value": "27","label": "27" },
+    {"value": "28","label": "28" },
+    {"value": "29","label": "29" },
+    {"value": "30","label": "30" },
+    {"value": "31","label": "31" }
+  ],
+  "Months": [
+    {"value": "Jan","label": "Jan" },
+    {"value": "Feb","label": "Feb" },
+    {"value": "Mar","label": "Mar" },
+    {"value": "Apr","label": "Apr" },
+    {"value": "May","label": "May" },
+    {"value": "Jun","label": "Jun" },
+    {"value": "Jul","label": "Jul" },
+    {"value": "Aug","label": "Aug" },
+    {"value": "Sep","label": "Sep" },
+    {"value": "Oct","label": "Oct" },
+    {"value": "Nov","label": "Nov" },
+    {"value": "Dec","label": "Dec" }
+  ],
+  "Years": [
+    {"value": "2019","label": "2019" },
+    {"value": "2018","label": "2018" },
+    {"value": "2017","label": "2017" },
+    {"value": "2016","label": "2016" },
+    {"value": "2015","label": "2015" },
+    {"value": "2014","label": "2014" },
+    {"value": "2013","label": "2013" },
+    {"value": "2012","label": "2012" },
+    {"value": "2011","label": "2011" },
+    {"value": "2010","label": "2010" },
+    {"value": "2009","label": "2009" },
+    {"value": "2008","label": "2008" },
+    {"value": "2007","label": "2007" },
+    {"value": "2006","label": "2006" },
+    {"value": "2005","label": "2005" },
+    {"value": "2004","label": "2004" },
+    {"value": "2003","label": "2003" },
+    {"value": "2002","label": "2002" },
+    {"value": "2001","label": "2001" },
+    {"value": "2000","label": "2000" },
+    {"value": "1999","label": "1999" },
+    {"value": "1998","label": "1998" },
+    {"value": "1997","label": "1997" },
+    {"value": "1996","label": "1996" },
+    {"value": "1995","label": "1995" },
+    {"value": "1994","label": "1994" },
+    {"value": "1993","label": "1993" },
+    {"value": "1992","label": "1992" },
+    {"value": "1991","label": "1991" },
+    {"value": "1990","label": "1990" }
+  ],
+  "Jurisdictions": [
+    {
+      "value": 1,
+      "label": "Victoria"
+    },
+    {
+      "value": 2,
+      "label": "Tasmania"
+    },
+    {
+      "value": 3,
+      "label": "Queensland"
+    },
+    {
+      "value": 4,
+      "label": "New South Wales"
+    }
+  ],
+  "PenaltyUnitMultipliers": [
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "0001-01-01",
+      "Value": 100.00,
+      "Authority": "",
+      "AuthorityLink": ""
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2004-07-01",
+      "Value": 102.25,
+      "AuthorityName": "G25, 17/6/2004",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2004/GG2004G025.pdf#page=19"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2005-07-01",
+      "Value": 104.81,
+      "AuthorityName": "G15, 14/4/2005",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2005/GG2005G015.pdf#page=20"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2006-07-01",
+      "Value": 107.43,
+      "AuthorityName": "G14, 6/4/2006",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2006/GG2006G014.pdf#page=30"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2007-07-01",
+      "Value": 110.12,
+      "AuthorityName": "G12, 22/3/2007",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2007/GG2007G012.pdf#page=22"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2008-07-01",
+      "Value": 113.42,
+      "AuthorityName": "S66, 14/3/2008",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2008/GG2008S066.pdf"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2009-07-01",
+      "Value": 116.82,
+      "AuthorityName": "S132, 15/5/2009",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2009/GG2009S132.pdf"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2010-07-01",
+      "Value": 119.45,
+      "AuthorityName": "G10, 11/3/2010",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2010/GG2010G010.pdf#page=25"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2011-07-01",
+      "Value": 122.14,
+      "AuthorityName": "SG158, 26/5/2011",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2011/GG2011S158.pdf"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2012-07-01",
+      "Value": 140.84,
+      "AuthorityName": "Monetary Units Amendment Act 2012",
+      "AuthorityLink": "http://www.legislation.vic.gov.au/Domino/Web_Notes/LDMS/PubStatbook.nsf/f932b66241ecf1b7ca256e92000e23be/45D9789E8354393CCA257A1C00211A22/$FILE/12-033abookmarked.pdf"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2013-07-01",
+      "Value": 144.36,
+      "AuthorityName": "G16, 18/4/2013",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2013/GG2013G016.pdf#page=20"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2014-07-01",
+      "Value": 147.61,
+      "AuthorityName": "SG123, 15/4/2014",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2014/GG2014S123.pdf"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2015-07-01",
+      "Value": 151.67,
+      "AuthorityName": "SG86, 17/4/2015",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2015/GG2015S086.pdf"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2016-07-01",
+      "Value": 155.48,
+      "AuthorityName": "G15, 14/4/2016",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2016/GG2016G015.pdf#page=23"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2017-07-01",
+      "Value": 158.57,
+      "AuthorityName": "G13, 30/3/2017",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2017/GG2017G013.pdf#page=57"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2018-07-01",
+      "Value": 161.19,
+      "AuthorityName": "S145, 29/3/2018",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2018/GG2018S145.pdf"
+    },
+    {
+      "JurisdictionId": 1,
+      "CommencementDate": "2019-07-01",
+      "Value": 165.22,
+      "AuthorityName": "G14, 4/4/2019",
+      "AuthorityLink": "http://www.gazette.vic.gov.au/gazette/Gazettes2019/GG2019G014.pdf#page=30"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2007-04-29",
+      "Value": 100.00,
+      "AuthorityName": "",
+      "AuthorityLink": ""
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2007-10-24",
+      "Value": 120.00,
+      "AuthorityName": "",
+      "AuthorityLink": ""
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2008-07-01",
+      "Value": 120.00,
+      "AuthorityName": "",
+      "AuthorityLink": ""
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2009-07-01",
+      "Value": 120.00,
+      "AuthorityName": "",
+      "AuthorityLink": ""
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2010-07-01",
+      "Value": 130.00,
+      "AuthorityName": "Gazette 21 062, 26/5/2010",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2010/may_2010/21062_-_Gazette_26_May_2010.pdf#page=3"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2011-07-01",
+      "Value": 130.00,
+      "AuthorityName": "Gazette 21 158, 22/6/2011",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2011/june_2011/21158_-_Gazette_22_June_2011.pdf#page=2"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2012-07-01",
+      "Value": 130.00,
+      "AuthorityName": "Gazette 21 247, 27/6/2012",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2012/june_2012/21247_-_Gazette_27_June_2012.pdf#page=2"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2013-07-01",
+      "Value": 130.00,
+      "AuthorityName": "Gazette 21 341, 19/6/2013",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2013/june_2013/21341_-_Gazette_19_June_2013.pdf#page=2"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2014-07-01",
+      "Value": 140.00,
+      "AuthorityName": "Gazette 21 439, 25/6/2014",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2014/june_2014/21439_-_Gazette_25_June_2014.pdf#page=9"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2015-07-01",
+      "Value": 154.00,
+      "AuthorityName": "Gazette 21 519, 27/5/2015",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2015/may_2015/21519_-_Gazette_27_May_2015.pdf#page=3"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2016-07-01",
+      "Value": 157.00,
+      "AuthorityName": "Gazette 21 606, 1/6/2016",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2016/june_2016/315451_-_Gazette_01_June_2016.pdf#page=4"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2017-07-01",
+      "Value": 159.00,
+      "AuthorityName": "Gazette 21 703, 24/5/2017",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2017/may_2017/21703_-_Gazette_24_May_2017.pdf#page=3"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2018-07-01",
+      "Value": 163.00,
+      "AuthorityName": "Gazette 21 802, 30/5/2018",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2018/may_2018/21802_-_Gazette_30_May_2018.pdf#page=3"
+    },
+    {
+      "JurisdictionId": 2,
+      "CommencementDate": "2019-07-01",
+      "Value": 168.00,
+      "AuthorityName": "Gazette 21 885, 22/5/2019",
+      "AuthorityLink": "http://www.gazette.tas.gov.au/editions/2019/may_2019/21885_-_Gazette_22_May_2019.pdf#page=4"
+    },
+    {
+      "JurisdictionId": 3,
+      "CommencementDate": "2014-07-01",
+      "Value": 113.85,
+      "AuthorityName": "Penalties and Sentences Amendment Regulation (No 1) 2014",
+      "AuthorityLink": "https://www.legislation.qld.gov.au/view/pdf/asmade/sl-2014-0044"
+    },
+    {
+      "JurisdictionId": 3,
+      "CommencementDate": "2015-07-01",
+      "Value": 117.80,
+      "AuthorityName": "Penalties and Sentences Amendment (No 1) 2015",
+      "AuthorityLink": "https://www.legislation.qld.gov.au/view/pdf/asmade/sl-2015-0016"
+    },
+    {
+      "JurisdictionId": 3,
+      "CommencementDate": "2016-07-01",
+      "Value": 121.90,
+      "AuthorityName": "Penalties and Sentences Amendment Regulation (No 1) 2016",
+      "AuthorityLink": "https://www.legislation.qld.gov.au/view/whole/pdf/asmade/sl-2016-0039"
+    },
+    {
+      "JurisdictionId": 3,
+      "CommencementDate": "2017-07-01",
+      "Value": 126.15,
+      "AuthorityName": "Penalties and Sentences (Penalty Unit Value) Amendment Regulation 2017",
+      "AuthorityLink": "https://www.legislation.qld.gov.au/view/pdf/asmade/sl-2017-0060"
+    },
+    {
+      "JurisdictionId": 3,
+      "CommencementDate": "2018-07-01",
+      "Value": 130.55,
+      "AuthorityName": "Penalties and Sentences (Penalty Unit Value) Amendment Regulation 2018",
+      "AuthorityLink": "https://www.legislation.qld.gov.au/view/pdf/asmade/sl-2018-0053"
+    },
+    {
+      "JurisdictionId": 3,
+      "CommencementDate": "2019-07-01",
+      "Value": 133.45,
+      "AuthorityName": "Penalties and Sentences (Penalty Unit Value) Amendment Regulation 2019",
+      "AuthorityLink": "https://www.legislation.qld.gov.au/view/pdf/asmade/sl-2019-0060"
+    },
+    {
+      "JurisdictionId": 4,
+      "CommencementDate": "1999-12-08",
+      "Value": 100.00,
+      "AuthorityName": "Crimes (Sentencing Procedure) Act 1999 s 17",
+      "AuthorityLink": ""
+    }
+  ]
+}
