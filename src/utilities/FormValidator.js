@@ -16,11 +16,11 @@ class FormValidator
       {
         if (!validation[rule.field].isInvalid)
         {
-          const fieldValue = state[rule.field].toString();
+          const fieldValue = (!state[rule.field] || state[rule.field] === null) ? '' : state[rule.field].toString();
           const args = rule.args || [];
           const validationMethod = typeof rule.method === "string" ? validator[rule.method] : rule.method;
 
-          if (validationMethod(fieldValue, ...args, state) != rule.validWhen)
+          if (validationMethod(fieldValue, ...args, state) !== rule.validWhen)
           {
             validation[rule.field] =
             {

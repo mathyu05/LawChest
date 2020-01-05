@@ -1,0 +1,8 @@
+@media (min-width: 600px)
+{
+  .onlyMobile
+  {
+    visibility: hidden;
+    height: 0;
+  }
+}

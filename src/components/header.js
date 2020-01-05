@@ -10,8 +10,11 @@ const Header = ({ siteTitle }) =>
       style =
       {
         {
-          backgroundColor: `#d2bbe8`,
-          marginBottom: `1rem`
+          borderColor: `#d2bbe8`,
+          borderWidth: `2px`,
+          borderStyle: `solid`,
+          marginBottom: `1rem`,
+          fontSize: `1.5rem`
         }
       }>
       <ul
@@ -20,7 +23,7 @@ const Header = ({ siteTitle }) =>
           {
             listStyleType: `none`,
             margin: `0`,
-            padding: `0`,
+            padding: `50px 0 0 0`,
             overflow: `hidden`
           }
         }>
@@ -51,8 +54,8 @@ const Header = ({ siteTitle }) =>
               {
                 {
                   float: `left`,
-                  width: `1rem`,
-                  marginRight: `10px`,
+                  width: `30px`,
+                  margin: `0 10px`,
                   padding: `auto`
                 }
               }>

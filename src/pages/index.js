@@ -44,7 +44,6 @@ const IndexPage = () =>
         style =
         {
           {
-            height: `60px`,
             width: `200px`,
             margin: `0 auto`,
             borderRadius: `5px`,

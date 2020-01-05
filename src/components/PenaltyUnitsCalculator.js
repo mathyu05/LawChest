@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Select from "react-select";
 import Data from "../../content/data.json";
+import FormValidator from "../utilities/FormValidator.js";
 
 var moment = require('moment');
 
@@ -15,8 +16,71 @@ const PenaltyUnitsCalculator = () =>
   const [_yearOfOffending, setYearOfOffending] = useState({ value: null, label: null });
   const [_relevantPenaltyUnitMultiplier, setRelevantPenaltyUnitMultiplier] = useState();
 
+  const validator = new FormValidator(
+    [
+      {
+        field: '_jurisdiction',
+        method: 'isEmpty',
+        // args: [],
+        validWhen: false,
+        message: 'Jurisdiction is required'
+      },
+      {
+        field: '_maximumPenaltyUnits',
+        method: 'isEmpty',
+        // args: [],
+        validWhen: false,
+        message: 'Maximum Penalty Units is required'
+      },
+      {
+        field: '_dayOfOffending',
+        method: 'isEmpty',
+        // args: [],
+        validWhen: false,
+        message: 'Day is required'
+      },
+      {
+        field: '_monthOfOffending',
+        method: 'isEmpty',
+        // args: [],
+        validWhen: false,
+        message: 'Month is required'
+      },
+      {
+        field: '_yearOfOffending',
+        method: 'isEmpty',
+        // args: [],
+        validWhen: false,
+        message: 'Year is required'
+      }
+    ]
+  );
+
+  const [_validation, setValidation] = useState(validator.valid());
+  var submitted = false;
+
   const handleSubmit = (e) =>
   {
+    // e.preventDefualt();
+
+    // return;
+
+    // const validation = validator.validate(
+    //   {
+    //     _jurisdiction: _jurisdiction.value,
+    //     _maximumPenaltyUnits: _maximumPenaltyUnits,
+    //     _dayOfOffending: _dayOfOffending.value,
+    //     _monthOfOffending: _monthOfOffending.value,
+    //     _yearOfOffending: _yearOfOffending.value
+    //   }
+    // );
+    // setValidation(validation);
+
+    // if (validation.isValid === false)
+    // {
+    //   return;
+    // }
+
     const dateOfOffending = moment(_yearOfOffending.value + "-" + _monthOfOffending.value + "-" + _dayOfOffending.value, 'YYYY-MMM-DD');
     const pums = Data.PenaltyUnitMultipliers.filter(e => e.JurisdictionId === _jurisdiction.value).sort(e => e.CommencementDate);
     let lowestDifference = null;
@@ -60,10 +124,12 @@ const PenaltyUnitsCalculator = () =>
           {
             {
               display: "grid",
-              gridTemplateColumns: "100px 200px 150px",
-              gridColumnGap: "10px",
+              gridTemplateColumns: "28% 38% 34%",
+              gridColumnGap: "2%",
               gridTemplateRows: "20px 40px 20px 40px 20px 40px 40px",
-              gridRowGap: "20px"
+              gridRowGap: "20px",
+              maxWidth: `450px`,
+              minWidth: `280px`
             }
           }>
           <label
